@@ -9,4 +9,5 @@
     height: 14rem;
     background-position: center;
     color: white;
+    z-index: 1;
 }
