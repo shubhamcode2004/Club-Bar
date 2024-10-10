@@ -1,4 +1,5 @@
 import React from "react";
+import Club from "./Club/Club";
 
 const Home = () => {
   return (
@@ -65,9 +66,11 @@ const Home = () => {
             <span className="visually-hidden">Next</span>
           </button>
         </div>
+        <h1 className="text-center p-5">PREMIUM CLUB & BAR</h1>
+        <Club />
       </div>
     </>
   );
-}
+};
 
 export default Home;

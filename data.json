@@ -1,0 +1,28 @@
+{
+    "clubs": [
+      {
+        "id": 1,
+        "name": "Club 01",
+        "address": "Address 01 Pune",
+        "contact": "+91 9999999999"
+    },
+    {
+        "id": 2,
+        "name": "Club 02",
+        "address": "Address 02 Pune",
+        "contact": "+91 9999999999"
+    },
+    {
+        "id": 3,
+        "name": "Club 03",
+        "address": "Address 03 Pune",
+        "contact": "+91 9999999999"
+    },
+    {
+        "id": 4,
+        "name": "Club 04",
+        "address": "Address 04 Pune",
+        "contact": "+91 9999999999"
+    }
+    ]
+  }
