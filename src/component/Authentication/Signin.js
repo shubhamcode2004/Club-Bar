@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { signInWithEmailAndPassword } from "firebase/auth";
-import { auth } from "../../firebase";
+// import { auth } from "../../firebase";
 import { NavLink, useNavigate } from "react-router-dom";
 
 const Signin = () => {
@@ -10,7 +10,7 @@ const Signin = () => {
 
   const onLogin = (e) => {
     e.preventDefault();
-    signInWithEmailAndPassword(auth, email, password)
+    signInWithEmailAndPassword(email, password)
       .then((userCredential) => {
         // Signed in
         const user = userCredential.user;
